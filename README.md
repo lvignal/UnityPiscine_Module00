@@ -1,18 +1,32 @@
-# Context
-This is a 42 school subject.  
-This is my first Unity project, the subject is very simple, made to learn basic things on Unity.  
+# Floor Is Lava
 
-# The game : Floor is lava
-A ball on a path, controlled by WASD and arrows. It can jump with space. We had to create some decorations and obstacles with Unity 3D basic assets, and some given textures.  
-The camera is static.  
-When the ball falls of the path, we have to detect it and display "Game Over" in the debug console. No restart, no win.  
+## Context
+This is the first module of 42 school Unity Piscine : 7 modules made to learn Unity fundamentals.  
+It is my first project using Unity, focused on learning the fundamentals of game development : scene setup, player movement, trigger detection, download and use textures.
 
-Only one script : *Assets/Scripts/PlayerController*.  
-Game scene is *Assets/Scenes/FloorIsLavaScene*.  
+## Game Overview
+The player controls a ball that moves on a path with obstacles and must avoid falling.
 
-# Preview
+- Movement: WASD or arrow keys  
+- Jump: Spacebar
+- Camera : Static
+
+If the player falls, a **"Game Over"** message is displayed in the debug console.
+
+---
+
+## Technical Details
+- Script:
+  - `Assets/Scripts/PlayerController.cs`
+- Scene:
+  - `Assets/Scenes/FloorIsLavaScene.unity`
+
+## Preview
+
+### Scene
 <img width="807" height="336" alt="image" src="https://github.com/user-attachments/assets/bc27aa01-0d7a-4a7e-8ee7-b586728d0fa5" />
 
+### In-Game View
 <img width="1398" height="786" alt="image" src="https://github.com/user-attachments/assets/d1ae6c63-4826-450f-8b6e-cd1edfe6a3b3" />
 
 
